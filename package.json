@@ -1,0 +1,31 @@
+{
+  "name": "authentication-service-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icv852/authentication-service-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icv852/authentication-service-v2/issues"
+  },
+  "homepage": "https://github.com/icv852/authentication-service-v2#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@icv852/victor-logger": "^1.0.0"
+  }
+}
